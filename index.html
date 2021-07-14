@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pesquise Hotels | Projeto</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">Logo</h1>
+
+        <form action="#" class="search">
+            <input type="text" class="search__input" placeholder="Pesquise aqui">
+
+            <button class="search__button"><i class="fas fa-search"></i></button>
+        </form>
+
+        <nav class="user-nav">
+            <div class="user-nav__icon">
+                <i class="fas fa-bookmark"></i>
+                <span class="user-nav__icon-notification">18</span>
+            </div>
+
+            <div class="user-nav__icon">
+                <i class="fas fa-comments"></i>
+                <span class="user-nav__icon-notification">6</span>
+            </div>
+
+            <div class="user-nav__user">
+                <img src="/img/user-primary.jpg" alt="usuario principal" class="user-nav__user-image">
+                <span class="user-nav__user-name">Julio</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="content">
+        <nav class="navside">
+            <ul class="nav__side">
+                <li class="nav__side-list nav__side-list--active">
+                    <a href="#" class="nav__side-link">
+                        <i class="fas fa-hotel"></i>
+                        <span class="nav__side-name">Hotel</span>
+                    </a>
+                </li>
+
+                <li class="nav__side-list">
+                    <a href="#" class="nav__side-link">
+                        <i class="fas fa-plane"></i>
+                        <span class="nav__side-name">Voos</span>
+                    </a>
+                </li>
+
+                <li class="nav__side-list">
+                    <a href="#" class="nav__side-link">
+                        <i class="fas fa-key"></i>
+                        <span class="nav__side-name">Alugue veiculos</span>
+                    </a>
+                </li>
+
+                <li class="nav__side-list">
+                    <a href="#" class="nav__side-link">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span class="nav__side-name">Mapa</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="legal">
+                &copy; 2021 by Julio. All rights reserved
+            </div>
+        </nav>
+
+        <main class="hotel-view">
+            <div class="gallery">
+                <figure class="gallery__item">
+                    <img src="/img/hotel-1.jpg" alt="hotel imagem" class="gallery__image">
+                    <span class="gallery__caption"></span>
+                </figure>
+
+                <figure class="gallery__item">
+                    <img src="/img/hotel-2.jpg" alt="hotel imagem" class="gallery__image">
+                    <span class="gallery__caption"></span>
+                </figure>
+
+                <figure class="gallery__item">
+                    <img src="/img/hotel-3.jpg" alt="hotel imagem" class="gallery__image">
+                    <span class="gallery__caption"></span>
+                </figure>
+            </div>
+
+            <div class="overview">
+                <div class="overview__heading">hotel palmeiras</div>
+
+                <div class="overview__stars">
+                    <i class="fas fa-star overview__icon-star"></i>
+                    <i class="fas fa-star overview__icon-star"></i>
+                    <i class="fas fa-star overview__icon-star"></i>
+                    <i class="fas fa-star overview__icon-star"></i>
+                    <i class="fas fa-star-half overview__icon-star"></i>
+                </div>
+
+                <div class="overview__location">
+                    <i class="fas fa-map-marker-alt overview__location-icon"></i>
+                    <button class="btn-inline">Jardim, Teofilo Otoni</button>
+                </div>
+
+                <div class="overview__rating">
+                    <div class="overview__rating-average">4.5</div>
+                    <div class="overview__rating-count">87 votos</div>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="description">
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio asperiores consequuntur voluptatem placeat minima, ipsam maiores dolore corrupti ipsum quia, itaque esse blanditiis amet beatae vel culpa temporibus voluptatibus porro. 
+                    </p>
+
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio asperiores consequuntur voluptatem placeat minima. 
+                    </p>
+
+                    <ul class="list">
+                        <li class="list__item">Perto da praia</li>
+                        <li class="list__item">Café da manhã incluso</li>
+                        <li class="list__item">Transporte gratuito do aeroporto</li>
+                        <li class="list__item">Wifi grátis em todos os quartos</li>
+                        <li class="list__item">Ar condicionado e aquecimento</li>
+                        <li class="list__item">Mascotes permitidos</li>
+                        <li class="list__item">Falamos todas as linguas</li>
+                        <li class="list__item">Perfeito para famílias</li>
+                    </ul>
+
+                    <div class="recommend">
+                        <p class="recommend__count">Lucy e 3 outros amigos recomendam este hotel.</p>
+
+                        <div class="recommend__friends">
+                            <img src="/img/people-1.jpg" alt="people" class="recommend__photo">
+                            <img src="/img/people-2.jpg" alt="people" class="recommend__photo">
+                            <img src="/img/people-3.jpg" alt="people" class="recommend__photo">
+                            <img src="/img/people-4.jpg" alt="people" class="recommend__photo">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="user-reviews">
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit magni eius autem cumque debitis numquam et, quam facilis modi. 
+                        </blockquote>
+
+                        <figcaption class="review__user">
+                            <img src="/img/user-1.jpg" alt="people" class="review__photo">
+
+                            <div class="review__user-box">
+                                <p class="review__user-name">Lucas Alves</p>
+                                <p class="review__user-date">Fev 12, 2018</p>
+                            </div>
+    
+                            <div class="review__rating">4</div>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam velit magni eius autem cumque debitis numquam et, quam facilis modi. 
+                        </blockquote>
+
+                        <figcaption class="review__user">
+                            <img src="/img/user-2.jpg" alt="people" class="review__photo">
+
+                            <div class="review__user-box">
+                                <p class="review__user-name">Luciana Silva</p>
+                                <p class="review__user-date">Mar 26, 2019</p>
+                            </div>
+    
+                            <div class="review__rating">3.7</div>
+                        </figcaption>
+
+                        
+                    </figure>
+
+                    <button class="btn-inline">Veja mais &rArr;</button>
+                </div>
+            </div>
+
+            <div class="cta">
+                <h2 class="cta__book-now">Boas notícias! Temos 4 quartos grátis para as suas datas!</h2>
+                <button class="btn">Reserve agora</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
